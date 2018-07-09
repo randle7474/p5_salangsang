@@ -1,0 +1,34 @@
+<ion-content padding center text-center>  
+    <ion-title>Register For An Account</ion-title>
+     <ion-list>
+            <ion-item>
+              <ion-label floating>First Name</ion-label> 
+              <ion-input type = "text" #fname></ion-input>
+            </ion-item>
+             <ion-item>
+                    <ion-label floating>Last Name</ion-label> 
+                     <ion-input type = "text" #lname></ion-input>
+               </ion-item>
+            <ion-item>
+                    <ion-label floating>Phone</ion-label>
+                    <ion-input type="tel" #phone></ion-input>
+             </ion-item>
+
+             <ion-item>
+                    <ion-label floating>Email</ion-label> 
+                     <ion-input type = "text" #email></ion-input>
+             </ion-item>
+             <ion-item>
+                    <ion-label floating>UserName</ion-label> 
+                    <ion-input type = "text" #username></ion-input>
+             </ion-item>
+             <ion-item>
+                    <ion-label floating>Password</ion-label>
+                    <ion-input type ="password" #password></ion-input> 
+            </ion-item>
+       
+      </ion-list>
+      <button ion-button (click) = "goRegister()">Register Now</button>
+      <button ion-button (click) = "closeButton()">Cancel</button>
+    
+  </ion-content> 
